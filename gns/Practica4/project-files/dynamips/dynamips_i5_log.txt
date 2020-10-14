@@ -1,0 +1,18 @@
+Oct 13 23:21:35.385 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 13 23:21:35.386 HYPERVISOR: Started on IP = localhost, TCP port = 50541.
+Oct 13 23:21:35.867 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 13 23:21:35.867 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Alvarez\Dropbox\Colegio\2020\Semestre_2\Redes\Lab\Practica4\repo\Redes1-Practica4_201612383\gns\Practica4\project-files\dynamips 
+Oct 13 23:21:35.867 GENERAL: working_dir=C:\Users\Alvarez\Dropbox\Colegio\2020\Semestre_2\Redes\Lab\Practica4\repo\Redes1-Practica4_201612383\gns\Practica4\project-files\dynamips
+Oct 13 23:21:35.880 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Oct 13 23:21:38.133 HYPERVISOR: exec_cmd: nio create_udp udp-86abd1de-7551-45e2-9c33-60f303ac8ea5 10043 127.0.0.1 10042 
+Oct 13 23:21:38.134 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-86abd1de-7551-45e2-9c33-60f303ac8ea5 
+Oct 13 23:21:38.144 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-86abd1de-7551-45e2-9c33-60f303ac8ea5 1 
+Oct 13 23:21:38.245 HYPERVISOR: exec_cmd: nio create_udp udp-7a3d6bf7-0b2d-44c9-8c33-d4a482aaf447 10047 127.0.0.1 10046 
+Oct 13 23:21:38.245 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7a3d6bf7-0b2d-44c9-8c33-d4a482aaf447 
+Oct 13 23:21:38.312 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-7a3d6bf7-0b2d-44c9-8c33-d4a482aaf447 1 
+Oct 13 23:21:38.616 HYPERVISOR: exec_cmd: nio create_udp udp-df878494-7402-4fa2-82ab-979b5ad9fbbf 10058 127.0.0.1 10059 
+Oct 13 23:21:38.616 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-df878494-7402-4fa2-82ab-979b5ad9fbbf 
+Oct 13 23:21:38.631 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-df878494-7402-4fa2-82ab-979b5ad9fbbf 10 
+Oct 13 23:21:38.725 HYPERVISOR: exec_cmd: nio create_udp udp-102f2fde-287c-4d95-9a53-8df43c959831 10060 127.0.0.1 10061 
+Oct 13 23:21:38.725 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-102f2fde-287c-4d95-9a53-8df43c959831 
+Oct 13 23:21:38.739 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-102f2fde-287c-4d95-9a53-8df43c959831 20 
