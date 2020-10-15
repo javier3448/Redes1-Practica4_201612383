@@ -2,7 +2,7 @@
 
 ## Topologia
 
-![Topologia](imagnes/topologia.PNG)
+![Topologia](imagenes/topologia.PNG)
 
 ### Configuracion modo acceso o troncal
 **ESW1**
@@ -15,7 +15,7 @@ end
 ```
 
 Verificar con:
-![1](imagnes/1.PNG)
+![1](imagenes/1.PNG)
 
 **ESW2**
 ```
@@ -36,7 +36,7 @@ Verificar con:
 ```
 sh int status
 ```
-![2](imagnes/2.PNG)
+![2](imagenes/2.PNG)
 
 **ESW3**
 ```
@@ -50,7 +50,7 @@ Verificar con:
 ```
 sh int status
 ```
-![3](imagnes/3.PNG)
+![3](imagenes/3.PNG)
 
 ### Configurar VTP:
 
@@ -77,7 +77,7 @@ vtp password redes1_201612383
 vtp mode client
 ```
 
-![4](imagnes/4.PNG)
+![4](imagenes/4.PNG)
 
 ### Configurar VLANS
 
@@ -100,7 +100,7 @@ Verificar:
 sh vlan-sw
 ```
 
-![4](imagnes/7.PNG)
+![4](imagenes/7.PNG)
 
 ### Configurar port-channel
 
