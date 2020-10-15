@@ -1,0 +1,28 @@
+Oct 14 21:46:56.673 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 14 21:46:56.674 HYPERVISOR: Started on IP = localhost, TCP port = 50119.
+Oct 14 21:46:57.094 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 14 21:46:57.094 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Alvarez\Dropbox\Colegio\2020\Semestre_2\Redes\Lab\Practica4\gns\Practica4\project-files\dynamips 
+Oct 14 21:46:57.095 GENERAL: working_dir=C:\Users\Alvarez\Dropbox\Colegio\2020\Semestre_2\Redes\Lab\Practica4\gns\Practica4\project-files\dynamips
+Oct 14 21:46:57.103 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Alvarez\Dropbox\Colegio\2020\Semestre_2\Redes\Lab\Practica4\gns\Practica4\project-files\dynamips\9c2f5bae-6617-4cbf-90c0-7b7855bc2a41 
+Oct 14 21:46:57.103 GENERAL: working_dir=C:\Users\Alvarez\Dropbox\Colegio\2020\Semestre_2\Redes\Lab\Practica4\gns\Practica4\project-files\dynamips\9c2f5bae-6617-4cbf-90c0-7b7855bc2a41
+Oct 14 21:46:57.104 HYPERVISOR: exec_cmd: vm create R1 2 c3725 
+Oct 14 21:46:57.106 VM: VM R1 created.
+Oct 14 21:46:57.107 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5006 
+Oct 14 21:46:57.107 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Oct 14 21:46:57.108 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Oct 14 21:46:57.109 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Oct 14 21:46:57.109 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 14 21:46:57.109 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x6024681c 
+Oct 14 21:46:57.111 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Alvarez/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 14 21:46:57.112 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c202.3350.0000 
+Oct 14 21:46:57.113 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Oct 14 21:46:59.428 HYPERVISOR: exec_cmd: nio create_udp udp-4a6a8cb8-f5c3-463b-81ab-06ccb104d60c 10002 127.0.0.1 10003 
+Oct 14 21:47:01.681 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-4a6a8cb8-f5c3-463b-81ab-06ccb104d60c 
+Oct 14 21:47:01.682 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 14 15:55:29.054 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 14 15:55:29.055 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 14 16:02:55.056 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 14 16:02:55.057 HYPERVISOR: exec_cmd: vm extract_config R1 
+Oct 14 16:03:06.185 HYPERVISOR: Stopped.
+Oct 14 16:03:06.186 VM: VM R1 destroyed.
+Oct 14 16:03:06.256 GENERAL: reset done.

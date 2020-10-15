@@ -20,37 +20,6 @@
         "links": [
             {
                 "filters": {},
-                "link_id": "7dab002f-f633-4e9b-ab62-df9316d4b1fa",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": 43,
-                            "y": 60
-                        },
-                        "node_id": "9c2f5bae-6617-4cbf-90c0-7b7855bc2a41",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": 35,
-                            "y": -29
-                        },
-                        "node_id": "78f39036-effa-41f8-be4e-84987dab7929",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "b9b2f4f5-c028-4664-bd5d-e84af786fc23",
                 "nodes": [
                     {
@@ -482,6 +451,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "475ed6a5-62f1-481e-b648-96d4352961df",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 42,
+                            "y": 53
+                        },
+                        "node_id": "9c2f5bae-6617-4cbf-90c0-7b7855bc2a41",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/4",
+                            "x": 36,
+                            "y": -35
+                        },
+                        "node_id": "78f39036-effa-41f8-be4e-84987dab7929",
+                        "port_number": 4
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -647,7 +647,7 @@
                     "iomem": 5,
                     "mac_addr": "c201.00ec.0000",
                     "mmap": true,
-                    "nvram": 256,
+                    "nvram": 512,
                     "platform": "c3725",
                     "ram": 128,
                     "slot0": "GT96100-FE",
@@ -663,8 +663,8 @@
                 "symbol": ":/symbols/multilayer_switch.svg",
                 "template_id": "169d79d5-886b-4e1c-be2a-c4027024bd6e",
                 "width": 51,
-                "x": -248,
-                "y": -274,
+                "x": -247,
+                "y": -275,
                 "z": 1
             },
             {
@@ -761,9 +761,9 @@
                     "iomem": 5,
                     "mac_addr": "c203.3330.0000",
                     "mmap": true,
-                    "nvram": 256,
+                    "nvram": 512,
                     "platform": "c3725",
-                    "ram": 128,
+                    "ram": 256,
                     "slot0": "GT96100-FE",
                     "slot1": "NM-16ESW",
                     "slot2": null,
@@ -818,7 +818,7 @@
                     "iomem": 5,
                     "mac_addr": "c204.0e4c.0000",
                     "mmap": true,
-                    "nvram": 256,
+                    "nvram": 512,
                     "platform": "c3725",
                     "ram": 128,
                     "slot0": "GT96100-FE",
